@@ -59,20 +59,6 @@ const Education = () => {
               </div>
 
               <p className="text-gray-700 mb-6 leading-relaxed">{edu.description}</p>
-
-              {/* <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-3">Relevant Coursework:</h4>
-                  <ul className="space-y-1">
-                    {edu.coursework.map((course, idx) => (
-                      <li key={idx} className="flex items-start">
-                        <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                        <span className="text-gray-700 text-sm">{course}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div> */}
             </div>
           ))}
         </div>
