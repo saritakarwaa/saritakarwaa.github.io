@@ -3,25 +3,20 @@ import { GraduationCap, Calendar, MapPin, Award } from 'lucide-react';
 const Education = () => {
   const education = [
     {
-      degree: "Bachelor of Science in Computer Science",
-      institution: "State University",
-      location: "City, State",
-      period: "2021 - 2025 (Expected)",
-      gpa: "3.8/4.0",
+      degree: "Master of Computer Applications",
+      institution: "IGDTUW",
+      location: "Delhi",
+      period: "2024 - 2026",
+      gpa: "8.5/10",
+      description: "Focused on software engineering, data structures, algorithms, and web development. Active member of the Computer Science Club and participated in various hackathons."
+    },
+    {
+      degree: "Bachelor of Computer Applications",
+      institution: "Kuchaman College",
+      location: "Rajasthan",
+      period: "2021 - 2024",
+      gpa: "8.05/10",
       description: "Focused on software engineering, data structures, algorithms, and web development. Active member of the Computer Science Club and participated in various hackathons.",
-      coursework: [
-        "Data Structures & Algorithms",
-        "Software Engineering",
-        "Database Systems",
-        "Web Development",
-        "Computer Networks",
-        "Operating Systems"
-      ],
-      achievements: [
-        "Dean's List for 4 consecutive semesters",
-        "Winner of University Hackathon 2023",
-        "President of Computer Science Club (2023-2024)"
-      ]
     }
   ];
 
@@ -65,7 +60,7 @@ const Education = () => {
 
               <p className="text-gray-700 mb-6 leading-relaxed">{edu.description}</p>
 
-              <div className="grid md:grid-cols-2 gap-6">
+              {/* <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-3">Relevant Coursework:</h4>
                   <ul className="space-y-1">
@@ -77,19 +72,7 @@ const Education = () => {
                     ))}
                   </ul>
                 </div>
-
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-3">Achievements:</h4>
-                  <ul className="space-y-1">
-                    {edu.achievements.map((achievement, idx) => (
-                      <li key={idx} className="flex items-start">
-                        <div className="w-2 h-2 bg-green-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                        <span className="text-gray-700 text-sm">{achievement}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>
