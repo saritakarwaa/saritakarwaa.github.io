@@ -1,22 +1,5 @@
-import { Github, Linkedin, Instagram,Mail,Code} from 'lucide-react';
-import type { ExperienceItem, Project, SocialLink, NavigationItem, EducationItem } from './types';
-
-export const experiences: ExperienceItem[] = [
-  {
-    title: "Senior Frontend Engineer",
-    company: "TechCorp Solutions",
-    location: "San Francisco, CA",
-    date: "2022 - Present",
-    description: [
-      "Led the development of a responsive web application serving 100K+ daily users",
-      "Implemented accessibility standards (WCAG 2.1 AA) across all product features",
-      "Collaborated with design team to create pixel-perfect UI components",
-      "Mentored junior developers and established frontend coding best practices"
-    ],
-    techStack: ["React", "TypeScript", "Tailwind CSS", "Next.js", "GraphQL"],
-    link: "https://techcorp.com"
-  },
-];
+import { Github, Linkedin,Mail,Code} from 'lucide-react';
+import type {Project, SocialLink, NavigationItem, EducationItem } from './types';
 
 export const education: EducationItem[] = [
   {
@@ -24,50 +7,50 @@ export const education: EducationItem[] = [
     institution: "IGDTUW",
     location: "Delhi",
     date: "2024-2026",
-    description: [
-      "Specialized in Human-Computer Interaction and Web Technologies",
-      "Completed thesis on 'Accessibility in Modern Web Applications'",
-      "Teaching Assistant for CS106A: Programming Methodology"
-    ],
     gpa: "8.5/10",
-    honors: ["Dean's List", "Graduate Research Fellowship"],
-    relevantCourses: ["Advanced Web Development", "User Interface Design", "Database Systems", "Software Engineering"]
+    relevantCourses: ["Data Structures", "Algorithms", "Database Systems", "Software Engineering","Computer Networks"]
   },
   {
     degree: "Bachelor of Computer Applications",
     institution: "Kuchaman College",
     location: "Rajasthan",
     date: "2021-2024",
-    description: [
-      "Graduated Magna Cum Laude with focus on Software Engineering",
-      "President of Women in Engineering Society",
-      "Led team project developing mobile application for campus navigation"
-    ],
     gpa: "8.05/10",
-    honors: ["Magna Cum Laude", "Phi Beta Kappa", "Outstanding Senior Award"],
-    relevantCourses: ["Data Structures", "Algorithms", "Computer Networks", "Operating Systems"]
+    relevantCourses: ["Web Development","CyberSecurity","Operating Systems"]
   }
 ];
 
 export const projects: Project[] = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-featured e-commerce platform with shopping cart, payment integration, and admin dashboard.",
-    techStack: ["React", "Node.js", "MongoDB", "Stripe API"],
-    link: "https://github.com/sarita/ecommerce-platform"
+    title: "Inkspire",
+    description: "A live collaborative whiteboard where users can sketch, brainstorm, and share ideas simultaneously.",
+    techStack: ["Canvas", "Node.js", "Prisma+Postgresql", "Next.js","Websocket", "Tailwind CSS","Express.js","Typescript"],
+    link: "https://github.com/saritakarwaa/inkspire"
   },
   {
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates and team collaboration features.",
-    techStack: ["Vue.js", "Firebase", "Vuetify", "WebSockets"],
-    link: "https://github.com/sarita/task-manager"
+    title: "AI Integrated Blog App",
+    description: "A modern blog platform enhanced with AI to assist content creation and personalization.",
+    techStack: ["React.js", "MongoDB", "Node.js", "Express.js","Docker","Redis","HuggingFace","Tailwind CSS","Cloudinary","Typescript"],
+    link: "https://github.com/saritakarwaa/Blog-Frontend"
   },
   {
-    title: "Weather Dashboard",
-    description: "A responsive weather dashboard with location-based forecasts and interactive maps.",
-    techStack: ["React", "Weather API", "Chart.js", "Tailwind CSS"],
-    link: "https://github.com/sarita/weather-dashboard"
-  }
+    title: "Notesmith AI",
+    description: "An AI-powered tool that turns long notes into concise summaries and interactive quizzes.",
+    techStack: ["React", "Node.js","Express.js", "Gemini API","Tailwind CSS","Typescript"],
+    link: "https://github.com/saritakarwaa/notesmith-ai"
+  },
+  {
+    title: "Real Time Location Tracker",
+    description: "A web-based real-time location sharing and visualization app built with Node.js, Socket.IO, and Leaflet.js.",
+    techStack: ["EJS", "Express.js","Socket.io"],
+    link: "https://github.com/saritakarwaa/tracker"
+  },
+  {
+    title: "Drumkit",
+    description: "An interactive drum kit built with HTML, CSS, and JavaScript that lets users play sounds with keyboard and mouse clicks in real time.",
+    techStack: ["HTML", "CSS","Javascript"],
+    link: "https://github.com/saritakarwaa/JS-30"
+  },
 ];
 
 export const socialLinks: SocialLink[] = [
@@ -79,12 +62,11 @@ export const socialLinks: SocialLink[] = [
 
 export const navigationItems: NavigationItem[] = [
   { id: 'about', label: 'About' },
-  { id: 'experience', label: 'Experience' },
   { id: 'education', label: 'Education' },
   { id: 'projects', label: 'Projects' }
 ];
 
 export const skills = [
   'JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js',
-  'HTML5', 'CSS3', 'Tailwind CSS', 'WebSocket', 'GraphQL', 'REST APIs','MongoDB','Postgresql','Redis'
+  'HTML5', 'CSS3', 'Tailwind CSS', 'WebSocket', 'GraphQL', 'REST APIs','MongoDB','Postgresql','Redis','Docker'
 ];
