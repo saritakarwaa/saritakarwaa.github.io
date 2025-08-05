@@ -8,7 +8,7 @@ export const education: EducationItem[] = [
     location: "Delhi",
     date: "2024-2026",
     gpa: "8.5/10",
-    relevantCourses: ["Data Structures", "Algorithms", "Database Systems", "Software Engineering","Computer Networks"]
+    relevantCourses: ["Data Structures", "Algorithms", "Database Systems", "Software Engineering","Computer Networks","Java","Python"]
   },
   {
     degree: "Bachelor of Computer Applications",
@@ -16,7 +16,7 @@ export const education: EducationItem[] = [
     location: "Rajasthan",
     date: "2021-2024",
     gpa: "8.05/10",
-    relevantCourses: ["Web Development","CyberSecurity","Operating Systems"]
+    relevantCourses: ["Web Development","CyberSecurity","Operating Systems","C++"]
   }
 ];
 
