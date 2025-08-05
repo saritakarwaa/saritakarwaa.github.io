@@ -40,6 +40,12 @@ export const projects: Project[] = [
     link: "https://github.com/saritakarwaa/notesmith-ai"
   },
   {
+    title: "Commit-muse",
+    description: "A Git commit-message hook installer that rewrites your commit messages in any style using Google’s Gemini AI, published as an NPM package",
+    techStack: ["NPM", "Bash"],
+    link: "https://github.com/saritakarwaa/commit-muse"
+  },
+  {
     title: "Real Time Location Tracker",
     description: "A web-based real-time location sharing and visualization app built with Node.js, Socket.IO, and Leaflet.js.",
     techStack: ["EJS", "Express.js","Socket.io"],
