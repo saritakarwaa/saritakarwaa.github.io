@@ -23,10 +23,10 @@ const Sidebar: React.FC<SidebarProps> = ({
             Sarita Karwa
           </h1>
           <h2 className="text-xl lg:text-2xl font-medium text-[#FFD2A0] mb-4">
-            Front End Engineer
+            {/* Front End Engineer */}
           </h2>
           <p className="text-[#d6d6e3] leading-relaxed max-w-xs">
-            I build accessible, pixel-perfect digital experiences for the web.
+            Learning to architect secure and scalable backend systems that solve real-world problems.
           </p>
         </div>
 
