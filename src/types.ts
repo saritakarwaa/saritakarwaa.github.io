@@ -26,3 +26,13 @@ export interface EducationItem {
   honors?: string[];
   relevantCourses?: string[];
 }
+
+export interface ExperienceItem {
+  title: string;
+  company: string;
+  location: string;
+  date: string;
+  description: string[];
+  techStack?: string[];
+  link?: string;
+}

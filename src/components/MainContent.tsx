@@ -1,13 +1,15 @@
 import React from 'react';
-import type {Project, EducationItem } from '../types';
+import type {Project, EducationItem,ExperienceItem } from '../types';
 import About from './About';
-
 import Education from './Education';
 import Projects from './Projects';
+import Experience from './Experience';
+
 
 interface MainContentProps {
   activeSection: string;
   education: EducationItem[];
+  experiences: ExperienceItem[];
   projects: Project[];
   skills: string[];
 }
@@ -15,6 +17,7 @@ interface MainContentProps {
 const MainContent: React.FC<MainContentProps> = ({
   activeSection,
   education,
+  experiences,
   projects,
   skills
 }) => {
@@ -22,6 +25,8 @@ const MainContent: React.FC<MainContentProps> = ({
     switch (activeSection) {
       case 'about':
         return <About skills={skills} />;
+      case 'experience':
+        return <Experience experiences={experiences} />;
       case 'education':
         return <Education education={education} />;
       case 'projects':

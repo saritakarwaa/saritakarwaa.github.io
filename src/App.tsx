@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Sidebar from "./components/Sidebar";
-import { navigationItems, socialLinks, education, projects,skills} from "./config";
+import { navigationItems, socialLinks, education, projects,skills, experiences} from "./config";
 import MainContent from "./components/MainContent";
 
 
@@ -17,6 +17,7 @@ export default function App() {
         />
         <MainContent
           activeSection={activeSection}
+          experiences={experiences}
           education={education}
           projects={projects}
           skills={skills}

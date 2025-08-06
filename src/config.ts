@@ -1,6 +1,5 @@
 import { Github, Linkedin,Mail,Code} from 'lucide-react';
-import type {Project, SocialLink, NavigationItem, EducationItem } from './types';
-
+import type {Project, SocialLink, NavigationItem, EducationItem,ExperienceItem } from './types';
 export const education: EducationItem[] = [
   {
     degree: "Master of Computer Applications",
@@ -24,13 +23,13 @@ export const projects: Project[] = [
   {
     title: "Inkspire",
     description: "A live collaborative whiteboard where users can sketch, brainstorm, and share ideas simultaneously.",
-    techStack: ["Canvas", "Node.js", "Prisma+Postgresql", "Next.js","Websocket", "Tailwind CSS","Express.js","Typescript"],
+    techStack: ["Canvas", "Node.js", "Prisma+Postgresql", "Next.js","Websocket", "Tailwind CSS","Express.js","Typescript","Turborepo"],
     link: "https://github.com/saritakarwaa/inkspire"
   },
   {
     title: "AI Integrated Blog App",
     description: "A modern blog platform enhanced with AI to assist content creation and personalization.",
-    techStack: ["React.js", "MongoDB", "Node.js", "Express.js","Docker","Redis","HuggingFace","Tailwind CSS","Cloudinary","Typescript"],
+    techStack: ["React.js", "MongoDB", "Node.js", "Express.js","Docker","Redis","HuggingFace","Tailwind CSS","Cloudinary","Typescript","OAuth","Nodemailer"],
     link: "https://github.com/saritakarwaa/Blog-Frontend"
   },
   {
@@ -69,10 +68,25 @@ export const socialLinks: SocialLink[] = [
 export const navigationItems: NavigationItem[] = [
   { id: 'about', label: 'About' },
   { id: 'education', label: 'Education' },
+  { id:'experience', label: 'Experience'},
   { id: 'projects', label: 'Projects' }
 ];
 
 export const skills = [
   'JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js',
   'HTML5', 'CSS3', 'Tailwind CSS', 'WebSocket', 'GraphQL', 'REST APIs','MongoDB','Postgresql','Redis','Docker'
+];
+
+export const experiences: ExperienceItem[] = [
+  {
+    title: "Research Intern",
+    company: "ACM Student Chapter",
+    location: "IGDTUW, Delhi",
+    date: "2024 - 2025",
+    description: [
+      "Reviewed 35+ research papers to map how Federated Learning is integrated with Cloud Computing.",
+  "Co-authored the paper “Federated Learning with Cloud Computing: A Literary Survey” highlighting emerging trends, best practices, and research gaps.",
+   "Earned a Certificate of Appreciation for depth of analysis and practical recommendations."
+    ],
+  },
 ];
