@@ -1,13 +1,13 @@
 import { useState } from "react";
 import Sidebar from "./components/Sidebar";
-import { navigationItems, socialLinks, education, projects,skills, experiences} from "./config";
+import { navigationItems, socialLinks, education, projects, skills, experiences } from "./config";
 import MainContent from "./components/MainContent";
 
-
 export default function App() {
-  const [activeSection, setActiveSection] = useState('about');
+  const [activeSection, setActiveSection] = useState("about");
+
   return (
-    <div className="min-h-screen bg-[#8174A0] text-slate-100">
+    <div className="min-h-screen bg-[#22223B] text-[#C9ADA7]">
       <div className="flex flex-col lg:flex-row max-w-7xl mx-auto">
         <Sidebar
           activeSection={activeSection}
@@ -26,3 +26,4 @@ export default function App() {
     </div>
   );
 }
+

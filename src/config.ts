@@ -23,7 +23,7 @@ export const projects: Project[] = [
   {
     title: "Inkspire",
     description: "A live collaborative whiteboard where users can sketch, brainstorm, and share ideas simultaneously.",
-    techStack: ["Canvas", "Node.js", "Prisma+Postgresql", "Next.js","Websocket", "Tailwind CSS","Express.js","Typescript","Turborepo"],
+    techStack: ["HTML Canvas", "Node.js", "Prisma+Postgresql", "Next.js","Websocket", "Tailwind CSS","Express.js","Typescript","Turborepo"],
     link: "https://github.com/saritakarwaa/inkspire"
   },
   {
