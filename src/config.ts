@@ -39,6 +39,12 @@ export const projects: Project[] = [
     link: "https://github.com/saritakarwaa/notesmith-ai"
   },
   {
+    title: "Chat App",
+    description: "A horizontally scalable real-time chat system capable of efficiently handling high user and message traffic.",
+    techStack: ["Socket.io", "Redis","Kafka", "Postgresql","Typescript"],
+    link: "https://github.com/saritakarwaa/scalable-chat"
+  },
+  {
     title: "Commit-muse",
     description: "A Git commit-message hook installer that rewrites your commit messages in any style using Google’s Gemini AI, published as an NPM package",
     techStack: ["NPM", "Bash"],
@@ -74,7 +80,8 @@ export const navigationItems: NavigationItem[] = [
 
 export const skills = [
   'JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js',
-  'HTML5', 'CSS3', 'Tailwind CSS', 'WebSocket', 'GraphQL', 'REST APIs','MongoDB','Postgresql','Redis','Docker'
+  'HTML5', 'CSS3', 'Tailwind CSS', 'WebSocket', 'GraphQL', 'REST APIs','MongoDB','Postgresql','Redis','Docker',
+  'C++','Java'
 ];
 
 export const experiences: ExperienceItem[] = [
