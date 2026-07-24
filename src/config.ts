@@ -96,4 +96,27 @@ export const experiences: ExperienceItem[] = [
    "Earned a Certificate of Appreciation for depth of analysis and practical recommendations."
     ],
   },
+  {
+  title: "Analyst Intern",
+  company: "HSBC",
+  location: "Chennai, India",
+  date: "Feb 2026 – Aug 2026",
+  link: "https://www.hsbc.com/",
+  description: [
+    "Supported HSBC's IFRS 9 Expected Credit Loss (ECL) calculation process for Retail and Wholesale portfolios by monitoring end-to-end ETL workflows, validating data from multiple upstream systems, and ensuring accurate monthly impairment calculations for financial and regulatory reporting.",
+    "Investigated production incidents through root cause analysis, resolved data quality issues, and collaborated with upstream and downstream teams to ensure timely delivery within strict reporting timelines.",
+    "Automated operational runbooks and standardized recurring support activities, reducing manual effort and improving process efficiency.",
+    "Performed data validation, reconciliation, and operational reporting using SAS Enterprise Guide (SAS EG) and Qlik Sense, while supporting impairment data delivery to downstream reporting platforms and the General Ledger for post-calculation adjustments and month-end financial reporting."
+  ],
+  techStack: [
+    "IFRS 9",
+    "ETL",
+    "SAS Enterprise Guide",
+    "Qlik Sense",
+    "Data Validation",
+    "Production Support",
+    "Putty",
+    "Control-M"
+  ]
+},
 ];
